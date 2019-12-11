@@ -1,0 +1,95 @@
+body {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+.entete {
+    background-color: lightgrey;
+    width: 100%;
+}
+
+#nomSociete {
+    color: black ;
+    font-weight: bold;
+}
+
+h4 {
+}
+
+#moto {
+    text-align: center;
+    color: white;
+    background-color: rgb(91,152,36);
+    font-weight: bold;
+}
+
+#indexPages {
+    display: inline;
+}
+
+#mainPage1 {
+   display: flex; 
+   flex-direction: column;
+}
+
+#hautMainPage1 {
+    background: url(MainPhoto.jpeg) no-repeat; /*pourquoi elle ne s'affiche pas ? Elle semble se charger pourtant*/
+    display: flex; 
+    flex-direction: row;
+    
+ }
+
+#logoPetit {
+    left: 5%; /* ne marche pas */
+}
+
+#milieuMainPage1 {
+    background: url(LogoBackground.PNG) no-repeat;
+    background-size: contain;
+    background-color: white;
+}
+
+.sommaire {
+    background-color: darkgrey;
+    color: white;
+    width: 20%;
+
+}
+
+#milieuMainPage1 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.text { 
+    text-align: center;
+    width: 60%;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+
+
+
+h3 {
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+li {
+    font-weight: bold
+}
+
+
+
